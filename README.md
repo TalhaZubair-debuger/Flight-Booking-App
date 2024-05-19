@@ -1,17 +1,22 @@
-# Flight Booking App
+# Project Overview:
+The Flight Booking App allows users to effortlessly search for available flights and book single or multiple seats, all within a secure, user-friendly platform. To ensure seamless bookings, users can only proceed after signing in.
 
-It was an internship evaluation project, which led me to the Associate Software Engineer's role.
-The Flight Booking App's purpose is to show users all the available flights, search for flights, and let them book single/multiple seats. Users can only book flights after signing in.
+# Tech Stack:
 
-# Implementation
+Frontend: Built with ReactJS and state management using Redux Toolkit. I utilized Font Awesome v5 icons for a modern interface and implemented robust form validations both on the frontend and backend.
 
-I have used ReactJs for front-end and Redux Toolkit for state management. I have implemented form validation Frontend as well as in Backend. Font awesome v5 icons are used inside the application. I have used session storage for storing JSON Web Tokens. Home [page lists all the flights available and already booked, which can be shown either in grid form or in tanel. The table shows more data than Grid, but both were implemented as per project requirements.
+Backend: Developed using NodeJS, with APIs handling signup, login, user management, flight data operations, and seat booking. Key libraries include CORS, mongoose, body-parser, express, and winston-mongodb.
 
-NodeJs is used for Backend API implementation, and CORS, mongoose, body-parser, express, and winston-mongodb. The APIs I have written in the application are signup user, login user, get user, add multiple flights, add single flight, all flights, get single flight, search flights, book seat.
+Security: Session storage is used for storing JSON Web Tokens, ensuring secure and persistent user sessions.
 
-The project contains complete error handling, form handling, user authentication, authorization, page not found, and all the possible error codes and their responses are implemented.
+# Features:
 
-Note: This project was built in 3 working days so no mobile responsiveness is handled.
+User Interface: The home page displays all available and booked flights, viewable in either a grid or table format to suit user preferences.
+
+Functionality: The app includes comprehensive error handling, user authentication and authorization, and detailed responses for all potential error codes.
+
+Implementation: Despite the tight timeline of just 3 working days, I successfully delivered a fully functional application. Please note, mobile responsiveness was not addressed within this timeframe.
+
 # Screenshots
 
 ![screencapture-localhost-3000-signup-2024-05-19-18_44_30](https://github.com/TalhaZubair-debuger/Flight-Booking-App/assets/84172830/422760e8-5bdd-4117-8974-a414364181c5)
